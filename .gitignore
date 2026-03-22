@@ -13,12 +13,18 @@ build-*/
 cmake-build-*/
 Debug/
 Release/
+**/build/
+**/build-*/
 
 # CMake
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 compile_commands.json
+
+# Qt Creator project metadata
+.qtcreator/
+**/.qtcreator/
 
 # OS and editor
 .DS_Store
